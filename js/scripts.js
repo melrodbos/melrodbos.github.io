@@ -1,19 +1,7 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.1
-    Last Change: 08/27/2017
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
-*/
 
 (function($) {
-
     // Remove no-js class
-    $('html').removeClass('no-js');
+    // $('html').removeClass('no-js');
 
     // Animate to section when nav is clicked
     $('header a').click(function(e) {
@@ -95,3 +83,11 @@
     });
 
 })(jQuery);
+
+/*!
+    Title: Dev Portfolio Template
+    Author: Ryan Fitzgerald, Edits: MKRB
+    Repo: https://github.com/RyanFitzgerald/devportfolio-template
+    Description: This file contains all the scripts associated with the single-page
+    portfolio website.
+*/

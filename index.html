@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Melissa Rodriguez</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/hbr3qct.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -47,16 +48,16 @@
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
+        <div id="lead-content" data-aos="fade-in" data-aos-delay="30" data-aos-easing="ease-in">
+            <h1>Melissa Rodriguez</h1>
+            <h2>Front End Developer</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+        <div id="lead-down"  data-aos="fade-in" data-aos-delay="30" data-aos-easing="ease-in-out">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
@@ -69,13 +70,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading" id="heading-about"  data-aos="fade-right" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                    <p data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in">
+                        &lt;p&gt;Hello world!&lt;&sol;p&gt; I am a front-end developer and designer. I love a challenge and this career choice has proven to be all about that. Art, architecture, food and design constitute a big part of my existance. <br><br>When I'm no
+                        <!-- I am a goal-oriented, passionate about web and technology mother of two who happens to enjoy fine (and not so fine) art, design and food. Having started my career as an architect, the more technology oriented the field geared into, the more interested in web development I became. -->
                     </p>
                 </div>
             </div>
@@ -84,98 +84,158 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading" id="heading-experience" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="October 2015 – Present" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <h3>Triad</h3>
+                <h4>Front End Developer</h4>
+                <p><br>In charge of brand page development for samsclub.com. As part of the Development team for Sams Club </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="September 2015 – September 2016" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <h3>WP Console</h3>
+                <h4>Front End Specialist/ Content Manager </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    In charge of landing page development and product data input for small and large scale clients utilizing WordPress as the CMS and HTML and CSS as the Front-End tools.
                 </p>
             </div>
         </div>
-    </div>
-    <!-- End #experience -->
-
+    </div><!-- End #experience -->
+    
     <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
+        <h2 class="heading" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">Education</h2>
+        <div class="education-block" id="ed-block-1" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">
+            <h3>University of Puerto Rico&emsp;|&emsp;San Juan, PR</h3>
+            <span class="education-date"> August 2002 - May 2007</span>
+            <h4>Bachelor of Environmental Design in Architecture</h4>
+        </div><!-- End .education-block -->
+        
 
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+        <div class="education-block" id="ed-block-2" data-aos="fade-up" data-aos-delay="30" data-aos-duration="600" data-aos-easing="ease-in-out">
+            <h3>The Iron Yard&emsp;|&emsp;Orlando, FL</h3>
+            <span class="education-date">Completed July 2015</span>
+            <h4>Front End Engineering</h4>
+        </div><!-- End .education-block -->
+    </div><!-- End #education -->
+    
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/huggies1.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Huggies<sup>&reg;</sup> Showcase</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Client: Kimberly-Clark
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://www5.samsclub.com/Featured-Brand/Kimberly-Clark/Huggies-Showcase/" class="hvr-float">View Project</a>
+                    </div><!-- End .project-info -->
+                </div><!-- End .project -->
+                
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="project-image">
+                        <img src="images/vitacup1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>VitaCup</h3>
+                        <p>
+                            Client: VitaCup
+                            <br><br>
+                        </p>
+                        <a href="http://www5.samsclub.com/Featured-Brand/VitaCup/">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/serta1.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Serta<sup>&reg;</sup> Perfect Sleeper</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Client: Serta
+                            <br><br>
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="http://www5.samsclub.com/Featured-Brand/Serta/Perfect-Sleeper/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="project-image">
+                        <img src="images/jewelry1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Sam's Club Jewelry</h3>
+                        <p>
+                            Client: Sam's Club
+                            <br><br>
+                        </p>
+                        <a href="http://www5.samsclub.com/Featured-Brand/Sams-Club/Jewelry/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="project-image">
+                        <img src="images/coke1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Coke March-Madness</h3>
+                        <p>
+                            Client: Coca-Cola
+                            <br><br>
+                        </p>
+                        <a href="http://www5.samsclub.com/Featured-Brand/Coke/March-Madness/#/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="project-image">
+                        <img src="images/redbaron1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Red Baron</h3>
+                        <p>
+                            Client: Schwans
+                            <br><br>
+                        </p>
+                        <a href="https://staging-samsclub.triadretail.net/Featured-Brand/Schwans/Red-Baron-Pizza/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="project-image">
+                        <img src="images/johnsons1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Johnson's Baby</h3>
+                        <p>
+                            Client: Johnson &amp; Johnson's
+                            <br><br>
+                        </p>
+                        <a href="https://www5.samsclub.com/Featured-Brand/Johnson-Johnson/Johnsons-Baby/">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -186,45 +246,34 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li data-aos="flip-up" data-aos-duration="500">HTML</li>
+            <li data-aos="flip-up" data-aos-duration="550">CSS</li>
+            <li data-aos="flip-up" data-aos-duration="600">JavaScript</li>
+            <li data-aos="flip-up" data-aos-duration="650">JQuery</li>
+            <li data-aos="flip-up" data-aos-duration="700">Node.js</li>
+            <li data-aos="flip-up" data-aos-duration="750">AngularJs</li>
+            <li data-aos="flip-up" data-aos-duration="800">Responsive Design</li>
+            <li data-aos="flip-up" data-aos-duration="850">Pug (F.K.A. Jade)</li>
+            <li data-aos="flip-up"  data-aos-duration="900">Vue.js</li>
+            <li data-aos="flip-up"  data-aos-duration="950">Photoshop</li>
+            <li data-aos="flip-up" data-aos-duration="1000">Git</li>
+            <li data-aos="flip-up" data-aos-duration="1500">Sass</li>
+            <li data-aos="flip-up" data-aos-duration="1100">Linux Command Line</li>
+            <li data-aos="flip-up" data-aos-duration="1150">Greensock</li>
+            <!-- <li data-aos="flip-up" data-aos-delay="100" data-aos-duration="1200">Competitive Vacuming</li> -->
         </ul>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2 data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in">Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/m.rodriguez.bosques@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                <input type="email" name="_replyto" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -237,7 +286,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2019 Melissa Rodriguez
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -251,19 +300,7 @@
                             <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="www.linkedin.com/in/melissa-rodriguez-8a1896a" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -271,9 +308,19 @@
         </div>
     </footer>
     <!-- End footer -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- ScrollMagic-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!-- Greensock TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
 </body>
 
 </html>
