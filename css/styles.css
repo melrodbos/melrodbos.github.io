@@ -72,7 +72,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: right;
     z-index: 10;
     animation-name: dropHeader;
     animation-iteration-count: 1;
@@ -82,12 +82,12 @@ header {
 
 header ul {
     display: inline-block;
-    background: #fff;
+    /* background: #fff; */
     text-align: center;
     padding: 10px;
     margin: 0;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px
+    /* border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px */
 }
 
 header li {
@@ -131,7 +131,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #F9A799;
+    color: #ff6164;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -148,7 +148,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #F9A799
+    color: #ff6164
 }
 
 #mobile-menu-close span {
@@ -220,21 +220,21 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #dcd9d9;
+    color: #374054;
     padding: 15px 25px;
-    border: 1px solid #dcd9d9;
-    border-radius: 30px;
+    border: 1px solid #374054;
+    border-radius: 0;
     transition: .5s ease all
 }
 
 .btn-rounded-white:hover {
     color: #74808a;
-    background: #dcd9d9;
+    background: #F1F1EC;
     text-decoration: none
 }
 
 .shadow {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) */
 }
 
 .shadow-large {
@@ -272,8 +272,8 @@ footer {
     max-height: 700px;
     /* max-height: 1080px; */
     background: #374054;
-    background: url('https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80');
-    background-size: cover;
+    background: url('https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80');
+    /* background-size: cover; */
     background-attachment: fixed;
     padding: 15px;
     overflow: hidden
@@ -295,12 +295,18 @@ footer {
 
 #lead-content h1 {
 	font-family: montserrat, sans-serif;
-    color: #374054;
+    /* color: #374054; */
     font-weight: 400;
     font-size: 4em;
     /* text-transform: uppercase; */
     /* letter-spacing: 0.05em; */
-    line-height: 0.9em
+    /* line-height: 0.9em */
+    background:  #374054;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.2);
 }
 
 #lead-content h2 {
@@ -310,7 +316,7 @@ footer {
     margin-bottom: 15px
 }
 
-/* #lead-overlay {
+#lead-overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -318,9 +324,9 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(241, 241, 236, 0.5);
     z-index: 1
-} */
+} 
 
 #lead-down {
     position: absolute;
@@ -330,7 +336,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #dcd9d9
+    color: #FFF
 }
 
 #lead-down span {
@@ -340,7 +346,7 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 2px solid #dcd9d9;
+    border: 2px solid #FFF;
     text-align: center
 }
 
@@ -405,7 +411,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #F9A799;
+    background: #ff6164;
     z-index: 0
 }
 
@@ -414,8 +420,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #F9A799;
-    background: linear-gradient(to bottom, #F9A799, rgba(52, 152, 219, 0));
+    background: #ff6164;
+    background: linear-gradient(to bottom, #ff6164, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -426,7 +432,7 @@ footer {
     background: #fff;
     /* border: 1px solid #e6e6e6; */
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 0;
     text-align: left
 }
 
@@ -463,7 +469,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #F9A799;
+    background: #ff6164;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -502,9 +508,9 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #dcd9d9;
+    border: 5px dotted #ff6164;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 0;
 }
 
 .education-block h3 {
@@ -638,7 +644,7 @@ a, a:visited {
 /****** Contact Section ******/
 #contact {
     padding: 50px 15px;
-    background: #F9A799;
+    background: #ff6164;
     text-align: center
 }
 
@@ -826,6 +832,11 @@ a, a:visited {
         height: 100%
     }
 
+    header ul {
+    	background: #FFF; 
+
+    }
+
     #mobile-menu-open,
     #mobile-menu-close {
         display: block
@@ -866,7 +877,9 @@ a, a:visited {
     }
 
     .project-image {
-        display: block
+        display: block;
+        width: 100%;
+        padding-left: 0
     }
 
     .project-info {
