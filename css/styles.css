@@ -137,7 +137,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #ff6164;
+    color: #fb9195;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -154,7 +154,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #ff6164
+    color: #fb9195
 }
 
 #mobile-menu-close span {
@@ -247,8 +247,8 @@ footer {
 .shadow-large {
     /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15) */
     -webkit-box-shadow: 10px 20px 0px 0px rgb(3, 142, 32);
-    -moz-box-shadow: 5px 10px 0px 0px rgba(3,142,32,1);
-    box-shadow: 5px 10px 0px 0px rgb(3, 142, 32);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(3,142,32,1);
+    box-shadow: 2px 2px 0px 0px rgb(3, 142, 32);
 }
 
 .heading {
@@ -308,9 +308,9 @@ footer {
 	font-family: 'Space Mono', monospace;
     /* color: #374054; */
     font-weight: 400;
-    font-size: 7em;
+    font-size: 5em;
     text-transform: uppercase;
-    letter-spacing: -30px;
+    letter-spacing: -5px;
     /* line-height: 0.9em */
     background:  #000;
     color: transparent;
@@ -423,7 +423,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #ff6164;
+    background: #fb9195;
     z-index: 0
 }
 
@@ -432,8 +432,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #ff6164;
-    background: linear-gradient(to bottom, #ff6164, rgba(52, 152, 219, 0));
+    background: #fb9195;
+    background: linear-gradient(to bottom, #fb9195, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -481,7 +481,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #ff6164;
+    background: #fb9195;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -656,7 +656,7 @@ a, a:visited {
 /****** Contact Section ******/
 #contact {
     padding: 50px 15px;
-    background: #ff6164;
+    background: #fb9195;
     text-align: center
 }
 
@@ -680,7 +680,7 @@ a, a:visited {
     border: none;
     margin-bottom: 10px;
     background: #FFF;
-    color: #fff;
+    color: #000;
     transition: .5s ease all
 }
 
@@ -803,7 +803,7 @@ a, a:visited {
 }
 @media only screen and (min-width: 1200px){
 	#lead-content h1 {
-        font-size: 8em
+        font-size: 5em
     }
 }
 
