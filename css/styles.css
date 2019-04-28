@@ -11,11 +11,11 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 
-/* @import url("https://use.typekit.net/hbr3qct.css"); */
-/* font-family: montserrat, sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+/* font-family: 'Space Mono', monospace; */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size: 16px
 }
 
@@ -96,19 +96,20 @@ header li {
 
 header a {
     display: block;
-    color: #797470;
+    /* color: #797470; */
+    color: #000;
     padding: 10px
 }
 
 header a:hover {
     color: #222;
     text-decoration: none;
-    background: #eee;
+    background: rgba(0, 0, 0, 0);
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #000;
     text-decoration: none
 }
 
@@ -119,6 +120,11 @@ header.active {
 header.sticky {
     position: fixed;
     z-index: 999
+}
+
+.hvr-underline-from-center:before {
+	background:  #000;
+	height: 2px;
 }
 
 #menu.active {
@@ -222,8 +228,9 @@ footer {
     display: inline-block;
     color: #374054;
     padding: 15px 25px;
-    border: 1px solid #374054;
+    /* border: 1px solid #374054; */
     border-radius: 0;
+    background-color: #fff;
     transition: .5s ease all
 }
 
@@ -238,7 +245,10 @@ footer {
 }
 
 .shadow-large {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15)
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15) */
+    -webkit-box-shadow: 10px 20px 0px 0px rgb(3, 142, 32);
+    -moz-box-shadow: 5px 10px 0px 0px rgba(3,142,32,1);
+    box-shadow: 5px 10px 0px 0px rgb(3, 142, 32);
 }
 
 .heading {
@@ -262,7 +272,7 @@ footer {
 }
 
 .background-alt {
-    background: #F1F1EC;
+    background: #c7bbbd33;
 }
 
 #lead {
@@ -272,9 +282,9 @@ footer {
     max-height: 700px;
     /* max-height: 1080px; */
     background: #374054;
-    background: url('https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80');
-    /* background-size: cover; */
-    background-attachment: fixed;
+    background: url(https://images.unsplash.com/photo-1504587614488-3259c5c1d9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80) no-repeat center;
+    background-size: cover;
+    /* background-attachment: fixed; */
     padding: 15px;
     overflow: hidden
 }
@@ -285,7 +295,8 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center
+    text-align: center;
+    width: 100%;
 }
 
 #lead-content h1,
@@ -294,14 +305,14 @@ footer {
 }
 
 #lead-content h1 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Space Mono', monospace;
     /* color: #374054; */
     font-weight: 400;
-    font-size: 4em;
-    /* text-transform: uppercase; */
-    /* letter-spacing: 0.05em; */
+    font-size: 7em;
+    text-transform: uppercase;
+    letter-spacing: -30px;
     /* line-height: 0.9em */
-    background:  #374054;
+    background:  #000;
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -310,10 +321,11 @@ footer {
 }
 
 #lead-content h2 {
-    color: #ff6164;
     font-weight: 500;
-    font-size: 2.25em;
-    margin-bottom: 15px
+    font-size: 3em;
+    margin-bottom: 15px;
+	text-shadow: 2px 2px 0 #fff204, 4px 4px 0 #fff204;
+    color: #000;
 }
 
 #lead-overlay {
@@ -324,7 +336,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(241, 241, 236, 0.5);
+    background: rgba(241, 241, 236, 0.2);
     z-index: 1
 } 
 
@@ -505,12 +517,12 @@ footer {
 }
 
 .education-block {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 5px dotted #ff6164;
+    border: 30px solid #fff204;
     text-align: left;
-    border-radius: 0;
+    border-radius: 60px;
 }
 
 .education-block h3 {
@@ -551,7 +563,7 @@ a:hover {
 	color: #374054;
 }
 a, a:visited {
-	color: #74808a;
+	color: #374054;
 }
 #projects {
     padding: 50px 15px;
@@ -636,7 +648,7 @@ a, a:visited {
     margin: 7px;
     padding: 5px 10px;
     color: #374054;
-    background: #F1F1EC;
+    background: #fff204;
     list-style: none;
     cursor: default;
     font-size: 1.2em
@@ -789,6 +801,11 @@ a, a:visited {
         margin-left: 70px
     }
 }
+@media only screen and (min-width: 1200px){
+	#lead-content h1 {
+        font-size: 8em
+    }
+}
 
 @media only screen and (max-width: 992px) {
     #lead {
@@ -856,11 +873,11 @@ a, a:visited {
     }
 
     #lead-content h1 {
-        font-size: 2em
+        font-size: 2.5em
     }
 
     #lead-content h2 {
-        font-size: 1.3em
+        font-size: 1.5em
     }
 
     #lead-content a {
@@ -901,11 +918,12 @@ a, a:visited {
 
 @media only screen and (max-width: 480px) {
     #lead-content h1 {
-        font-size: 1.5em
+        font-size: 4em;
+        letter-spacing: -15px;
     }
 
     #lead-content h2 {
-        font-size: 1em
+        font-size: 1.3em
     }
 
     #lead-content a {
