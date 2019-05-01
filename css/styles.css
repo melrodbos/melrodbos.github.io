@@ -348,7 +348,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #FFF
+    color: #374054
 }
 
 #lead-down span {
@@ -357,8 +357,8 @@ footer {
     margin: 0 auto;
     width: 35px;
     height: 35px;
-    border-radius: 50%;
-    border: 2px solid #FFF;
+    /* border-radius: 50%; */
+    border: 2px solid #374054;
     text-align: center
 }
 
