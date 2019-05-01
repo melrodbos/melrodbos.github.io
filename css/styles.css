@@ -190,7 +190,7 @@ footer {
     margin: 15px auto 0 auto;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     border: 2px solid #b9bfc4;
     text-align: center
 }
