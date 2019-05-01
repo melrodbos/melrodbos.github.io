@@ -317,8 +317,8 @@ footer {
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.2);
-}
+/*     text-shadow: 0px 3px 3px rgba(255,255,255,0.2);
+ */}
 
 #lead-content h2 {
     font-weight: 500;
