@@ -306,7 +306,7 @@ footer {
 
 #lead-content h1 {
 	font-family: 'Space Mono', monospace;
-    color: #000; 
+    color: #000;
     font-weight: 400;
     font-size: 5em;
     text-transform: uppercase;
@@ -347,7 +347,7 @@ background: radial-gradient(ellipse at center, rgba(220,217,217,.6) 0%,rgba(255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 
-} 
+}
 
 #lead-down {
     position: absolute;
@@ -823,6 +823,19 @@ a, a:visited {
 
 @media only screen and (max-width: 992px) {
     #lead {
+        position: relative;
+        height: 100vh;
+        min-height: 500px;
+        max-height: 700px;
+        /* max-height: 1080px; */
+        background: #000;
+        background: url(https://images.unsplash.com/photo-1504587614488-3259c5c1d9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80) no-repeat center fixed;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        padding: 15px;
+        overflow: hidden
+    }
+    #lead {
         height: auto;
         min-height: auto;
         max-height: auto;
@@ -864,7 +877,7 @@ a, a:visited {
     }
 
     header ul {
-    	background: #FFF; 
+    	background: #FFF;
 
     }
 
@@ -884,6 +897,9 @@ a, a:visited {
     #menu li {
         display: block;
         margin-bottom: 10px
+    }
+    #lead {
+        background: url(https://images.unsplash.com/photo-1504587614488-3259c5c1d9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80) no-repeat center;
     }
 
     #lead-content h1 {
@@ -931,6 +947,9 @@ a, a:visited {
 }
 
 @media only screen and (max-width: 480px) {
+    #lead {
+        background: url(https://images.unsplash.com/photo-1504587614488-3259c5c1d9b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80) no-repeat center;
+    }
     #lead-content h1 {
         font-size: 2.5em;
     	letter-spacing: -3px;
